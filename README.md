@@ -34,9 +34,9 @@ project/
 ├── app.js
 └── README.md
 
-## Endpoints
+# Endpoints
 
-# 1. Criar Usuário
+### 1. Criar Usuário
 URL: /users
 Método: POST
 Descrição: Cria um novo usuário.
@@ -50,19 +50,19 @@ json
 }
 Resposta: Retorna o usuário criado.
 
-# 2. Listar Todos os Usuários
+### 2. Listar Todos os Usuários
 URL: /users
 Método: GET
 Descrição: Retorna todos os usuários cadastrados.
 Resposta: Array de usuários.
 
-# 3. Buscar Usuário por ID
+### 3. Buscar Usuário por ID
 URL: /users/:id
 Método: GET
 Descrição: Busca um usuário pelo ID.
 Resposta: Dados do usuário.
 
-# 4. Atualizar Usuário
+### 4. Atualizar Usuário
 URL: /users/:id
 Método: PATCH
 Descrição: Atualiza informações de um usuário específico.
@@ -75,18 +75,18 @@ Editar
 }
 Resposta: Usuário atualizado.
 
-# 5. Deletar Usuário
+### 5. Deletar Usuário
 URL: /users/:id
 Método: DELETE
 Descrição: Remove um usuário pelo ID.
 Resposta: Usuário removido.
 
-# 6. Renderizar Página de Usuários
+### 6. Renderizar Página de Usuários
 URL: /views/users
 Método: GET
 Descrição: Renderiza uma página com a lista de usuários.
 
-# 7. Página Inicial
+### 7. Página Inicial
 URL: /home
 Método: GET
 Descrição: Retorna uma página HTML simples com a mensagem "Hello World".
@@ -100,9 +100,9 @@ lastName (String, obrigatório)
 email (String, obrigatório)
 password (String, obrigatório, mínimo 7 caracteres)
 
-## Ferramentas Utilizadas
-Node.js: Plataforma de execução de JavaScript.
-Express: Framework para criação de APIs.
-MongoDB: Banco de dados NoSQL.
-EJS: Template engine para renderizar views.
-Mongoose: ODM para MongoDB.
+### Ferramentas Utilizadas
+- Node.js: Plataforma de execução de JavaScript.
+- Express: Framework para criação de APIs.
+- MongoDB: Banco de dados NoSQL.
+- EJS: Template engine para renderizar views.
+- Mongoose: ODM para MongoDB.
