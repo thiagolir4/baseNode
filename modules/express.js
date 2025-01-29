@@ -18,7 +18,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get("/views/users", async (req, res) => {
+app.get("/views/users", async (req, res) => { //local host para visualizar os usuarios com a parte visual integrada
   const users = await UserModel.find({});
   res.render("index", { users });
 });
